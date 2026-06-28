@@ -11,7 +11,7 @@ import warnings
 #    (или создай файл .env с содержимым: JARVIS_BOT_TOKEN=новый_токен)
 BOT_TOKEN = os.getenv("JARVIS_BOT_TOKEN")
 if not BOT_TOKEN:
-    BOT_TOKEN = "7092374074:AAG4X-AyT0Uxjhv-qhSS4vDURTxPo56-sRo"
+    BOT_TOKEN = ""
     warnings.warn(
         "Используется старый (скомпрометированный) токен из config.py! "
         "Смени токен в @BotFather и установи JARVIS_BOT_TOKEN в переменных окружения.",
